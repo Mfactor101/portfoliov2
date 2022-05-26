@@ -1,12 +1,15 @@
+import Hero from "./Hero";
+import App from "./HeroAnimation";
+
 function Navbar() {
   return (
-    <div class="drawer">
-        <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
-        <div class="drawer-content flex flex-col">
-            <div class="w-full navbar bg-base-300">     
-                <div class="flex-none lg:hidden md:hidden sm:hidden">
-                <label htmlFor="my-drawer-3" class="btn btn-square btn-ghost">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+    <div className="drawer">
+        <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
+        <div className="drawer-content flex flex-col">
+            <div className="w-full navbar bg-base-300">     
+                <div className="flex-none lg:hidden md:hidden sm:hidden">
+                <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                 </label>
             </div>
             <div className="container mx-auto px-4">
@@ -20,9 +23,15 @@ function Navbar() {
                     <button className="btn btn-primary">Contact </button>
                     </ul>
                 </div>
-                </div>
-            </div> 
+                </div>          
+            </div>
+            {/* Content goes here */}
+            <App />
+            <Hero />
+            
+
         </div> 
+        
         <div className="drawer-side">
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label> 
             <ul className="menu p-4 overflow-y-auto w-80 bg-base-100">
