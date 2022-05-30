@@ -1,5 +1,5 @@
-import Hero from "./Hero";
 import App from "./HeroAnimation";
+import Projects from "./Projects";
 
 function Navbar() {
   return (
@@ -27,7 +27,7 @@ function Navbar() {
             </div>
             {/* Content goes here */}
             <App />
-            <Hero />
+            <Projects />
             
 
         </div> 

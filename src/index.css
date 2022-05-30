@@ -2,10 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities{
+  .square{
+    aspect-ratio: 2 / 1;
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
 
 body{
   font-family: 'Poppins', sans-serif;
+  color: #fff;
 }
 
 
@@ -25,3 +35,19 @@ body{
   ::-webkit-scrollbar-thumb:hover {
     background: #555; 
   }
+
+
+.hero-image{
+  max-width: 350px;
+}
+
+.project-card{
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.205);
+  transition: all ease-in-out 350ms;
+  transition-delay: 50ms;
+}
+
+.project-card:hover{
+  transform: scale(1.02, 1.02);
+  cursor: pointer;
+}
