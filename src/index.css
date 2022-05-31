@@ -2,22 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @layer utilities{
   .square{
     aspect-ratio: 2 / 1;
   }
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
-
+html{
+  scroll-behavior: smooth;
+}
 
 body{
   font-family: 'Poppins', sans-serif;
   color: #fff;
+  height: 100vh;
 }
 
+#custom-cursor{
+    width: 30px;
+    height: 30px;
+    border: 3px solid #fff;   
+    border-radius: 50%;
+    position: absolute;
+}
 
 /* Fancy scroll bar stuff*/
 ::-webkit-scrollbar {
@@ -36,12 +46,67 @@ body{
     background: #555; 
   }
 
+#hero{
+  position: relative;
+}
+
+.float-icon{
+  position: absolute;
+  top: 25%;
+  left: 75%;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.float-icon-1{
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.float-icon-2{
+  position: absolute;
+  top: 85%;
+  left: 45%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
 
 .hero-image{
   max-width: 350px;
 }
 
+.attention-animate {
+  display: inline-block;
+  position: relative;
+}
+
+.attention-animate:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #53B7FF;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.attention-animate:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
 .project-card{
+  border-radius: 25px;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.205);
   transition: all ease-in-out 350ms;
   transition-delay: 50ms;
@@ -50,4 +115,17 @@ body{
 .project-card:hover{
   transform: scale(1.02, 1.02);
   cursor: pointer;
+  box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
+}
+
+.page-footer{
+  background-color: #101010;
+}
+
+
+.divider{
+  height: 1px;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
