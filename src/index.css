@@ -50,32 +50,72 @@ body{
   position: relative;
 }
 
+.icon-container{
+  
+}
+
+
+
 .float-icon{
   position: absolute;
   top: 25%;
   left: 75%;
-  width: 40px;
-  height: 40px;
-  border: 1px solid #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d2d;
+  padding: 5px;
   border-radius: 50%;
+  transition: background-color 400ms ease-in-out;
 }
+
+.float-icon:hover{
+  cursor: pointer;
+  background-color: #575757;
+}
+
+
 .float-icon-1{
   position: absolute;
   top: 65%;
   left: 10%;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d2d;
+  padding: 5px;
   border-radius: 50%;
+  transition: background-color 400ms ease-in-out;
 }
+
+.float-icon-1:hover{
+  cursor: pointer;
+  background-color: #575757;
+}
+
+
 .float-icon-2{
   position: absolute;
   top: 85%;
   left: 45%;
-  width: 50px;
-  height: 50px;
-  border: 1px solid #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d2d;
+  padding: 5px;
   border-radius: 50%;
+  transition: background-color 400ms ease-in-out;
+}
+
+.float-icon-2:hover{
+  cursor: pointer;
+  background-color: #575757;
 }
 
 .hero-image{
