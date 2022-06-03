@@ -2,7 +2,6 @@ import { BsLockFill } from 'react-icons/bs'
 
 function Projects() {
   return (
-
     <section className="py-12">
       <div id="Projects" className="grid place-items-center">
           <div className="p-4 max-w-8xl grid gap-6 sm:grid-cols-2 md:grid-cols-3">
@@ -26,7 +25,6 @@ function Projects() {
                   <a href="https://veronecoffee.co.uk/" target="_blank" rel="noreferrer" className="mt-auto ml-auto"><button className="btn btn-primary">See Live</button></a>
                 </div>
               </div>
-
 
               {/* Third Project */}
               <div className="project-card h-64 rounded-lg sm:col-span-2 md:col-span-3 sm:h-auto sm:square p-4 bg-cover bg-[url('./img/cafp.png')]">

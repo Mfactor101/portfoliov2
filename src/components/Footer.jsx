@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <section className="w-full page-footer">
+    <section className="w-full bg-info">
       <div className="container mx-auto px-4 py-24 ">
         <h1 className="text-center text-4xl">You've <span className="attention-animate text-primary"> reached</span> the end of the page but...</h1>
         <div className="divider"></div>
