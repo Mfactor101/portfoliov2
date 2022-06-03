@@ -122,6 +122,18 @@ body{
   max-width: 350px;
 }
 
+.btn-primary{
+  color: #fff;
+}
+
+.cool-input{
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+  color: #101010;
+}
+
 .attention-animate {
   display: inline-block;
   position: relative;

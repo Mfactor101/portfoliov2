@@ -1,12 +1,13 @@
-import App from "./HeroAnimation";
+import { Link } from "react-router-dom";
 import Projects from "./Projects";
 import Footer from "./Footer";
 import Hero from "./Hero";
 
+
 function Navbar() {
+
   return (
-    <div className="drawer">
-        
+    <div className="drawer">       
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" /> 
         <div className="drawer-content flex flex-col">
             <div className="w-full navbar bg-info">     
@@ -17,18 +18,41 @@ function Navbar() {
             </div>
             <div className="container mx-auto px-4">
                 <div className="flex-1 px-2 mx-2">
-                    <button className="btn btn-ghost">MuheezCodes</button>
+                    <button className="btn btn-ghost">Home</button>
                 </div>
                 <div className="flex-none hidden lg:block md:block sm:block">
                     <ul className="menu menu-horizontal">
-                    <li><a href="#Projects">Work</a></li>
-                    <li><a href="#">About</a></li>
-                    <button className="btn btn-primary">Contact </button>
+                    <a className="btn btn-ghost" href="#">About</a>
+                    <label htmlFor="contact-modal" className="btn btn-primary">Contact</label>
                     </ul>
                 </div>
                 </div>          
             </div>
 
+
+            {/* Modal */}
+            <input type="checkbox" id="contact-modal" className="modal-toggle" />
+            <label htmlFor="contact-modal" className="modal cursor-pointer">
+                <div className="modal-box relative">
+                    <label htmlFor="contact-modal" className="btn btn-sm btn-circle absolute right-2 top-2">X</label>
+                    <h3 className="text-2xl text-center py-4">Contact me here</h3>
+                    <form action="">
+                        <label htmlFor="name">Name</label>
+                        <input className="cool-input" type="text" id="name" placeholder="Name" required/>
+
+                        <label htmlFor="email">Your E-mail</label>
+                        <input className="cool-input" type="email" name="email" id="email" placeholder="Email" required/>
+
+                        <label htmlFor="subject">Subject</label>
+                        <input className="cool-input" type="text" placeholder="Subject" />
+
+                        <label htmlFor="message">Message</label>
+                        <textarea className="cool-input" name="message" id="message" rows="5" placeholder="The stuff you want to talk about" required></textarea>
+
+                        <button className="btn btn-primary" type="submit">Send</button>
+                    </form>
+                </div>
+            </label>
             
             {/* Content goes here */}
             <Hero />
@@ -39,13 +63,11 @@ function Navbar() {
         <div className="drawer-side">
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label> 
             <ul className="menu p-4 overflow-y-auto w-80 bg-info">
-            <li><a href="#">Work</a></li>
             <li><a href="#">About</a></li>   
-            <li><button className="btn btn-primary">Contact </button></li>
+            <li><label htmlFor="contact-modal" className="btn btn-primary">Contact </label></li>
             </ul> 
         </div>
     </div>
-    
   )
 
 }

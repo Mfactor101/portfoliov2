@@ -12,7 +12,7 @@ function Hero() {
         transition={{ type: "tween", duration: 0.5 }} 
         initial={{scale: 0}}
         className="container">
-          <p className="py-4"><span className='attention-animate'>AbdulMuheez Owosho</span></p>
+          <p className="py-4"><span className='attention-animate'>Muheez Owosho</span></p>
           <h1 className="subpixel-antialiased font-extrabold lg:text-8xl md:text-6xl text-4xl py-4"><span className="bg-secondary">Web</span> Developer,</h1>
           <h1 className="subpixel-antialiased lg:ml-24 ml-12 lg:text-8xl md:text-6xl text-4xl py-4">Web <span className="bg-primary">Designer.</span></h1>
         </motion.div>
