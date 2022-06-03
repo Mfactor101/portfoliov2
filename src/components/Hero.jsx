@@ -4,6 +4,7 @@ import linkedIn from "../img/linkedin.png"
 import gmail from "../img/gmail.png"
 
 function Hero() {
+
   return (
     <section id="hero" className="bg-info">
       <div className="container text-center flex flex-col h-screen mx-auto lg:px-24 md:px-20 px-12 justify-center">
@@ -21,7 +22,7 @@ function Hero() {
       {/* Instagram icon */}
       <div className="floating icons">
         <div className="icon-container">
-          <motion.a animate={{y: [0, -20, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 3}} className='float-icon'>
+          <motion.a animate={{y: [0, -20, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 3}} className='float-icon' href='https://www.instagram.com/muheezcodes/' rel="noreferrer">
             <img className='floatng-image' src={instagram} alt="instagram logo" />
           </motion.a>
         </div>
@@ -35,7 +36,7 @@ function Hero() {
 
         {/* gmail icon */}
         <div className="icon-container">
-          <motion.a animate={{y: [0, -40, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 2.5}} className='float-icon-2'>
+          <motion.a animate={{y: [0, -40, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 2.5}} className='float-icon-2' href='mailto:muheez@muheezdesign.com'>
             <img className='floatng-image' src={gmail} alt="gmail logo" />
           </motion.a>  
         </div>        

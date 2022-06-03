@@ -35,15 +35,15 @@ function Navbar() {
                 <div className="modal-box relative">
                     <label htmlFor="contact-modal" className="btn btn-sm btn-circle absolute right-2 top-2">X</label>
                     <h3 className="text-2xl text-center py-4">Contact me here</h3>
-                    <form action="">
+                    <form action="https://formsubmit.co/muheez@muheezdesign.com" method="POST">
                         <label htmlFor="name">Name</label>
-                        <input className="cool-input" type="text" id="name" placeholder="Name" required/>
+                        <input className="cool-input" type="text" id="name" name="name" placeholder="Name" required/>
 
                         <label htmlFor="email">Your E-mail</label>
                         <input className="cool-input" type="email" name="email" id="email" placeholder="Email" required/>
 
                         <label htmlFor="subject">Subject</label>
-                        <input className="cool-input" type="text" placeholder="Subject" />
+                        <input className="cool-input" type="text" name="subject" placeholder="Subject" />
 
                         <label htmlFor="message">Message</label>
                         <textarea className="cool-input" name="message" id="message" rows="5" placeholder="The stuff you want to talk about" required></textarea>
