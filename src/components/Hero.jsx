@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import instagram from "../img/instagram.png"
-import linkedIn from "../img/linkedin.png"
+import github from "../img/github.png"
 import gmail from "../img/gmail.png"
 
 function Hero() {
@@ -22,21 +22,21 @@ function Hero() {
       {/* Instagram icon */}
       <div className="floating icons">
         <div className="icon-container">
-          <motion.a animate={{y: [0, -20, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 3}} className='float-icon' href='https://www.instagram.com/muheezcodes/' rel="noreferrer">
+          <motion.a animate={{y: [0, -20, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 3}} className='float-icon' href='https://www.instagram.com/muheezcodes/' target="_blank" rel="noreferrer">
             <img className='floatng-image' src={instagram} alt="instagram logo" />
           </motion.a>
         </div>
         
-        {/* Linkedin icon*/}
+        {/* Github icon*/}
         <div className="icon-container">
-          <motion.a href='https://www.linkedin.com/in/abdul-muheez-owosho-079841203/' target="_blank" rel="noopener noreferrer" animate={{y: [0, -30, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 4}} className='float-icon-1'>
-            <img className='floatng-image' src={linkedIn} alt="linkedin logo" />
+          <motion.a href='https://github.com/Mfactor101' target="_blank" rel="noopener noreferrer" animate={{y: [0, -30, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 4}} className='float-icon-1'>
+            <img className='floatng-image' src={github} alt="github logo" />
           </motion.a>
         </div>
 
         {/* gmail icon */}
         <div className="icon-container">
-          <motion.a animate={{y: [0, -40, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 2.5}} className='float-icon-2' href='mailto:muheez@muheezdesign.com'>
+          <motion.a animate={{y: [0, -40, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 2.5}} className='float-icon-2' href='mailto:muheez@muheezdesign.com' target="_blank">
             <img className='floatng-image' src={gmail} alt="gmail logo" />
           </motion.a>  
         </div>        
