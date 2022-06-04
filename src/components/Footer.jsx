@@ -11,8 +11,8 @@ function Footer() {
           </div>
           <div className="text-center">
             <h1 className="md:text-2xl text-lg attention-animate text-primary">muheez@muheezdesign.com</h1><br />
-            <a className="pr-6 attention-animate" href="https://www.instagram.com/muheezcodes/" rel="noreferrer">Instagram</a>
-            <a className="pr-6 attention-animate" href="https://www.linkedin.com/in/abdul-muheez-owosho-079841203/" rel="noreferrer">Linkedin</a>
+            <a className="pr-6 attention-animate" href="https://www.instagram.com/muheezcodes/" rel="noreferrer" target="_blank">Instagram</a>
+            <a className="pr-6 attention-animate" href="https://github.com/Mfactor101" rel="noreferrer" target="_blank">Github</a>
             <a className="pr-6 attention-animate" href="../img/muheez-cv.pdf" download="Muheez-CV">CV</a>
           </div>
         </div>
