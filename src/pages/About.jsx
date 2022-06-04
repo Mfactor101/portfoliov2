@@ -97,7 +97,7 @@ function About() {
             <section id='cta' className='bg-info py-12'>
               <div className="container px-4 mx-auto text-center">
                 <h1 className='text-6xl py-12 '>There's so <span className='text-primary'>much</span> more to see!</h1>
-                <p>I'm a fast replier wink wonk 😉. If you want to get to know me more click <label htmlFor="contact-modal" className='cursor-pointer text-primary attention-animate'>here</label>!</p>
+                <p>If you want to get to know me more click <label htmlFor="contact-modal" className='cursor-pointer text-primary attention-animate'>here</label>!</p>
               </div>
             </section>
             <Footer />
