@@ -10,7 +10,6 @@
   }
 }
 
-
 html{
   scroll-behavior: smooth;
 }
@@ -46,15 +45,10 @@ body{
     background: #555; 
   }
 
+/* Hero section */
 #hero{
   position: relative;
 }
-
-.icon-container{
-  
-}
-
-
 
 .float-icon{
   position: absolute;
@@ -76,7 +70,6 @@ body{
   background-color: #575757;
 }
 
-
 .float-icon-1{
   position: absolute;
   top: 65%;
@@ -96,7 +89,6 @@ body{
   cursor: pointer;
   background-color: #575757;
 }
-
 
 .float-icon-2{
   position: absolute;
@@ -171,7 +163,6 @@ body{
   cursor: pointer;
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.5);
 }
-
 
 .divider{
   height: 1px;
