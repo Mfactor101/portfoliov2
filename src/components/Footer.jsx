@@ -10,7 +10,9 @@ function Footer() {
             <h1>Let's get in touch! I'm here to connect!</h1>
           </div>
           <div className="text-center">
-            <h1 className="md:text-2xl text-lg attention-animate text-primary">muheez@muheezdesign.com</h1><br />
+            <h1 className="md:text-2xl text-lg attention-animate text-primary">
+              <a href='mailto:muheez@muheezdesign.com'>muheez@muheezdesign.com</a>
+            </h1>
             <a className="pr-6 attention-animate" href="https://www.instagram.com/muheezcodes/" rel="noreferrer" target="_blank">Instagram</a>
             <a className="pr-6 attention-animate" href="https://github.com/Mfactor101" rel="noreferrer" target="_blank">Github</a>
             <a className="pr-6 attention-animate" href="../img/muheez-cv.pdf" download="Muheez-CV">CV</a>

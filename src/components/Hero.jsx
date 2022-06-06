@@ -36,7 +36,7 @@ function Hero() {
 
         {/* gmail icon */}
         <div className="icon-container">
-          <motion.a animate={{y: [0, -40, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 2.5}} className='float-icon-2' href='mailto:muheez@muheezdesign.com' target="_blank">
+          <motion.a animate={{y: [0, -40, 0]}} transition={{ repeat: Infinity, type: "tween", ease: "easeInOut", duration: 2.5}} className='float-icon-2' href='mailto:muheez@muheezdesign.com'>
             <img className='floatng-image' src={gmail} alt="gmail logo" />
           </motion.a>  
         </div>        
