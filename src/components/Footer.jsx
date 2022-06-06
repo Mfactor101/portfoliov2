@@ -12,7 +12,7 @@ function Footer() {
           <div className="text-center">
             <h1 className="md:text-2xl text-lg attention-animate text-primary">
               <a href='mailto:muheez@muheezdesign.com'>muheez@muheezdesign.com</a>
-            </h1>
+            </h1><br></br>
             <a className="pr-6 attention-animate" href="https://www.instagram.com/muheezcodes/" rel="noreferrer" target="_blank">Instagram</a>
             <a className="pr-6 attention-animate" href="https://github.com/Mfactor101" rel="noreferrer" target="_blank">Github</a>
             <a className="pr-6 attention-animate" href="../img/muheez-cv.pdf" download="Muheez-CV">CV</a>
