@@ -60,7 +60,7 @@ function About() {
                   </div>
                   <div className="m-auto p-4">
                     <h1 className="lg:text-8xl md:text-6xl text-4xl">Hello! 🥤</h1>
-                    <p>I'm Muheez, a web developer based in london. I work towards producing high quality code and designs to bring ideas to life. <br></br><br></br>
+                    <p>I'm Muheez, a web developer based in London. I work towards producing high quality code and designs to bring ideas to life. <br></br><br></br>
                     I'm a self taught coder that's always learning keen on learning new ways and methods to improve my craft. I also love helping others become better developers through resource sharing and being in the community. <br></br>
                     Till today I strive to expand my knowledge and skills by constantly learning and building projects. 
                     </p>
