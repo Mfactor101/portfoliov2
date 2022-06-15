@@ -14,13 +14,13 @@ function links() {
             </div>
             <div className="p-6">
                 <div className="link-block bg-info p-4 mb-3 cursor-pointer">
-                    <Link to="/">My portfolio</Link>
+                    <Link className='block' to="/">My portfolio</Link>
                 </div>
                 <div className="link-block bg-info p-4 mb-3 cursor-pointer">
-                    <a href='https://www.instagram.com/muheezcodes/' rel="noreferrer" target="_blank">Instagram</a>
+                    <a className='block' href='https://www.instagram.com/muheezcodes/' rel="noreferrer" target="_blank">Instagram</a>
                 </div>
                 <div className="link-block bg-info p-4 mb-3 cursor-pointer">
-                    <a href='https://muheezdesign.gumroad.com/' rel="noreferrer" target="_blank">Gumroad</a>
+                    <a className='block' href='https://muheezdesign.gumroad.com/' rel="noreferrer" target="_blank">Gumroad</a>
                 </div>
             </div>
         </div>
